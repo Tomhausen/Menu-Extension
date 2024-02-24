@@ -12,7 +12,7 @@ namespace miniMenu{
     //% group="Create"
     //% weight=99
 
-    function createMenuFromArrayAndPauseGame(items: miniMenu.MenuItem[]): miniMenu.MenuSprite{
+    export function createMenuFromArrayAndPauseGame(items: miniMenu.MenuItem[]): miniMenu.MenuSprite{
         let img = image.screenImage().clone();
         game.pushScene();
         scene.setBackgroundImage(img)
