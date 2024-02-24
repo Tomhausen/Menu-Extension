@@ -1,4 +1,4 @@
-// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.1","target":"arcade","targetVersion":"1.13.53","repo":"tomhausen/menu-extension"}
+// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.2","target":"arcade","targetVersion":"1.13.53","repo":"tomhausen/menu-extension"}
 // total=1320749 new=5.65% cached=88.82% other=5.54%
 (function (ectx) {
 'use strict';
@@ -436,7 +436,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P244661(s) {
+function _main___P244781(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -859,13 +859,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P244661.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-mini-menu/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P244661.continuations = [  ]
+_main___P244781.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-mini-menu/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P244781.continuations = [  ]
 
-function _main___P244661_mk(s) {
+function _main___P244781_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P244661, depth: s.depth + 1,
+        parent: s, fn: _main___P244781, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -44479,5 +44479,5 @@ const sprites_BaseSpriteSayRenderer__C223230_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, [])
 
-return _main___P244661
+return _main___P244781
 })
