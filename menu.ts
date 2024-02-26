@@ -1,4 +1,6 @@
 
+enum MenuItemProperty {Font, Text, Icon}
+
 namespace miniMenu{
 
     /**
@@ -27,4 +29,24 @@ namespace miniMenu{
         return myMenu
     }
 
+    /**
+    * Returns a property of a given menu item
+    */
+    //% blockId=getMenuItemProperty
+    //% block="get $menuItem $property"
+    //% group="Create"
+    //% weight=60
+
+    export function getMenuItemProperty(menuItem: MenuItem, property: MenuItemProperty): any{
+        if (property == MenuItemProperty.Font){
+            return menuItem.font;
+        }
+        else if (property == MenuItemProperty.Text){
+            return menuItem.text;
+        }
+        else if (property == MenuItemProperty.Icon){
+            return menuItem.icon
+        }
+        return
+    }
 }
