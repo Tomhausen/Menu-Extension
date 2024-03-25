@@ -1,1 +1,0 @@
-music.baDing.play()
